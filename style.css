@@ -1,15 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto+Condensed:wght@300&display=swap');
+
+:root {
+    --primary-color:black;
+}
+
 body {
-    color:red;
+    font-family: 'Oswald', sans-serif;
+
 }
-h1{
-    color:blue
+
+hr {
+    margin: 2rem 0rem;
 }
-h2{
-    color:green
+/**  container **/
+.container {
+    padding: 0rem 1rem;
 }
-#lib-header{
-    color:grey
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
 }
-.para {
-    color:yellow
+
+/** links**/
+.link {
+    text-decoration: name;
+    padding: 0.5rem 1rem;
+}
+.link-primary {
+    background-color: var
+    (--primary-color);
+    border-radius: 0.5rem;
+    color: red
+}
+.link-secondary {
+    color: var(--primary-color);
+    border= radius: 0.5rem;
+    border: 1px solid var
+    (--primary-color):
+}
+
+/** look into BEM naming convention for CSS **/
+
+/** lists **/
+
+.list-non-bullet {
+    list-style:none;
+}
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
 }
