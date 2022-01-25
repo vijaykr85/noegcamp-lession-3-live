@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Oswald', sans-serif;
+    margin:0px
 
 }
 
@@ -102,6 +103,7 @@ hr {
 }
 
 .hero  .hero-heading {
+    text-align: center;
     padding-top: 1rem;
     color: var(--dark--gray)
 }
@@ -123,6 +125,17 @@ hr {
     background-color:var(--off-white);
 }
 
-.section  h3 {
-text-align: center;
+/** footer */
+
+footer{
+    background-color:var
+    (--primary-color);
+    padding:2rem 0rem;
+    text-align:center;
+    color:white;
+    border-top-right-radius: 1rem;
+
+}
+.footer .link {
+    color:white
 }
