@@ -15,6 +15,10 @@ body {
 hr {
     margin: 2rem 0rem;
 }
+/* spaces */
+.margin-md{
+    margin:2rem;
+}
 
 /**  container **/
 .container {
@@ -28,8 +32,11 @@ hr {
 
 /** links**/
 .link {
+    box-sizing: border-box;
     text-decoration: name;
     padding: 0.5rem 1rem;
+    /* margin-top: 1rem;
+    margin-bottom: 1 rem; */
 }
 
 .link-primary {
@@ -91,7 +98,8 @@ hr {
 /* header */
  
 .hero {
-   padding: 2rem;
+   padding: 5rem;
+   padding-top: 5rem;
    
 }
 
@@ -127,7 +135,7 @@ hr {
 
 /** footer */
 
-footer{
+.footer{
     background-color:var
     (--primary-color);
     padding:2rem 0rem;
@@ -137,5 +145,15 @@ footer{
 
 }
 .footer .link {
-    color:white
+    color:rgb(182, 41, 41)
+}
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+.footer ul {
+    padding-inline-start: 0px ;
+}
+.page-container{
+    min-height: 70vh;
 }
